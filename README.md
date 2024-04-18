@@ -10,9 +10,11 @@ The web application does the following:
 
 To start the application run the following commands:
 
-`cd henry-meds-coding-challenge`
-`npm install`
-`npm run dev`
+```
+cd henry-meds-coding-challenge
+npm install
+npm run dev
+```
 
 The command will print a URL to view the application.
 
