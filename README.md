@@ -6,6 +6,16 @@ The web application does the following:
   - Allows clients to reserve an available slot.
   - Allows clients to confirm their reservation.
 
+## Getting Started
+
+To start the application run the following commands:
+
+`cd henry-meds-coding-challenge`
+`npm install`
+`npm run dev`
+
+The command will print a URL to view the application.
+
 ## Provider Scheduling
 
 The web application allows providers to submit times they would like to work on the schedule. Given the time constraints, providers are only allowed to input blocks of times one by one. For example, they can input their availablility for April 22 from 10am to 4pm as one block. However, they would need to input April 23 from 10am to 2pm and April 23 from 3pm to 5pm in 2 requests. With initial launch, this may take providers some time to add their schedule. Afterwards, adding availability would not take as long with fairly frequent updates to the schedule. Following iterations may address this issue of having an easier method of adding to the provider's schedule.
